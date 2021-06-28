@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+
+#game_name {
+    text-align: center;
+    color: red;
+    font-family: 'Jomhuria' , cursive;
+    font-size: 100px;
+}
