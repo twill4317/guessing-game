@@ -1,12 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+
 :root {
-    --colsize: 30px;
-    --rowsize: 30px;
+    --colsize: 40px;
+    --rowsize: 40px;
+}
+
+body {
+    background-image: url('https://djangocentral.com/wp-content/uploads/2019/01/New-Project-8.png');
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 #game_name {
     text-align: center;
-    color: red;
+    color: gold;
     font-family: 'Jomhuria' , cursive;
     font-size: 100px;
 }
