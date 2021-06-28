@@ -20,6 +20,19 @@ body {
     font-size: 100px;
 }
 
+#game_prompt { 
+    background-color: white;
+    height: 70px;
+    width: 600px;
+    justify-items: center;
+    border-radius: 20px;
+    margin: 10px;
+    font-size: 90px;
+    text-align: center;
+    font-family: 'Jomhuria' , cursive;
+
+}
+
 #card_container {
     display: grid;
     gap: 20px;
