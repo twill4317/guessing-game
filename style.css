@@ -1,9 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+:root {
+    --colsize: 30px;
+    --rowsize: 30px;
+}
 
 #game_name {
     text-align: center;
     color: red;
     font-family: 'Jomhuria' , cursive;
     font-size: 100px;
+}
+
+#card_container {
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    grid-template-columns: var(--colsize) var(--colsize) var(--colsize) var(--colsize) var(--colsize) var(--colsize) var(--colsize) var(--colsize) var(--colsize) var(--colsize);
+    grid-template-rows: var(--colsize) var(--colsize) var(--colsize) var(--colsize) var(--colsize) var(--colsize) var(--colsize) var(--colsize) var(--colsize) var(--colsize);
+}
+
+#card {
+    width: 35px;
+    height: 35px;
+    background-color: aqua;
+    color: aqua;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+[class^="box-"] {
+    display: grid;
+    place-items: center;
 }
 
