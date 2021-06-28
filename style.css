@@ -3,6 +3,8 @@
 :root {
     --colsize: 40px;
     --rowsize: 40px;
+    --cardwdth:55px;
+    --cardhght:55px
 }
 
 body {
@@ -24,13 +26,22 @@ body {
     justify-content: center;
     grid-template-columns: var(--colsize) var(--colsize) var(--colsize) var(--colsize) var(--colsize) var(--colsize) var(--colsize) var(--colsize) var(--colsize) var(--colsize);
     grid-template-rows: var(--colsize) var(--colsize) var(--colsize) var(--colsize) var(--colsize) var(--colsize) var(--colsize) var(--colsize) var(--colsize) var(--colsize);
+    justify-items: stretch;
 }
 
 #card {
-    width: 35px;
-    height: 35px;
+    width: var(--cardwdth);
+    height: var(--cardhght);
     background-color: aqua;
     color: aqua;
+    text-align: center;
+    font-size: 50px;  
+    opacity: 0.7;
+}
+
+#card:hover { 
+    background-color: transparent;
+    color:black;
 }
 
 * {
